@@ -2,9 +2,9 @@
 
 ### instructions to push changes to github
 
-git add .
-git commit -m "commit message"
-git push -u origin main
+- git add .
+- git commit -m "commit message"
+- git push -u origin main
 
 ### Instructions
 
