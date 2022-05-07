@@ -1,6 +1,6 @@
 # WEB APP DEVELOPMENT
 
-### instructions to push changes to github
+### Instructions to push changes to github
 
 - git add .
 - git commit -m "commit message"
