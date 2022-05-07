@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  display: flex;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#list {
+  display: flex;
+  margin: 5px;
+  list-style: none;
+  width: 30vw;
+  padding: 5px;
+  justify-content: space-around;
+}
+.log {
+  /* padding-left: 9rem; */
+}
+#log {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px;
+  width: 15vw;
+}
+.list {
+  padding: 5px;
+  padding-left: 10px;
+}
+.list:hover {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  /* align-items: center; */
+  justify-content: center;
+  /* border:2px solid red; */
+  width: 40vw;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+#logo {
+  margin: 5px;
+  margin-left: 20px;
+}
+.text {
+  margin-bottom: 2rem;
+}
+
+.side {
+  margin-bottom: 2rem;
+}
+#navtp {
+  display: none;
+}
+#btn {
+  all: unset;
+  cursor: pointer;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+}
+#deskhero {
+  margin-right: 5rem;
+}
