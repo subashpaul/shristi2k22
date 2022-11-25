@@ -13,54 +13,82 @@
 
 <body>
   <nav id="navbar">
-    <h3 id="logo">snap</h3>
+    <div class="img">
+      <img src="/images/logo.svg" alt="" srcset="">
+    </div>
     <div class="top">
-      <ul id="list">
-        <li>Features <img src="/images/icon-arrow-down.svg" alt="" onmouseover="navtop()"></li>
-        <div id="navtp">
-  <ul>
-    <li>Todo List</li>
-    <li>Calendar</li>
-    <li>Reminders</li>
-    <li>Planning</li>
-  </ul>
-        </div>
-        <li>Company <img src="/images/icon-arrow-down.svg" alt=""></li>
-        <li>Careers</li>
-        <li>About</li>
-      </ul>
-      <div class="log">
+      <div class="topleft">
+        <ul>
+          <li onmouseenter="navtop('#navtp')" onclick="show('arrow1','#navtp')">
+            Features <img src=" /images/icon-arrow-down.svg" class="arr arrow1" alt="">
+          </li>
+          <div id="navtp" class="navtp" onmouseleave="mouseOut('navtp')">
+            <ul class="navtp_ul">
+              <li> <img src=" /images/icon-todo.svg" class='ico' alt=""> Todo List</li>
+              <li><img src="/images/icon-calendar.svg" class='ico' alt=""> Calendar</li>
+              <li><img src="/images/icon-reminders.svg" class='ico' alt=""> Reminders</li>
+              <li><img src="/images/icon-planning.svg" class='ico' alt=""> Planning</li>
+            </ul>
+          </div>
+          <li onmouseover="navtop('#navtp1')" onclick="show('arrow2','#navtp1')">Company
+            <img src="/images/icon-arrow-down.svg" alt="" class="arr arrow2">
+            <div id="navtp1" onmouseleave="mouseOut('navtp1')">
+              <ul>
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+      </div>
+      <div class="topright">
         <ul id="log">
-          <li class="list">Login</li>
-          <li class="list">Register</li>
+          <li class="list first"><span class="txt">
+              Login
+            </span></li>
+          <li class="list sec">
+            <span class="txt">
+              Register
+            </span>
+          </li>
         </ul>
       </div>
     </div>
-
-
-    </ul>
+    <div class="ham">≣</div>
   </nav>
   <div class="content">
     <div class="left">
       <div class="text">
         <h1 class="title">
-          Make 
+          Make
+          <br>
+          remote work
         </h1>
-        <h1 class="title">
+        <h1 class="title_sm">
+          Make
           remote work
         </h1>
       </div>
-     
+
 
       <div class="side">
-        <span>
+        <p>
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
-        </span> 
+        </p>
       </div>
 
       <div class="down">
         <button id="btn">Learn more</button>
+      </div>
+      <div class="down_images">
+        <img src="/images/client-databiz.svg" alt="">
+        <img src="/images/client-audiophile.svg" alt="">
+        <img src="/images/client-meet.svg" alt="">
+        <img src="/images/client-maker.svg" alt="">
       </div>
     </div>
     <div class="right">
